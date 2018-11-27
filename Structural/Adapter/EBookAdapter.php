@@ -5,7 +5,7 @@
  * DateTime: 2018/11/25 17:09
  */
 
-namespace DesignPatterns\Cretional\Adapter;
+namespace DesignPatterns\Structural\Adapter;
 
 
 class EBookAdapter implements BookInterface

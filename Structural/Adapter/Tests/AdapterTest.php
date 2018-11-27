@@ -5,12 +5,12 @@
  * DateTime: 2018/11/25 17:14
  */
 
-namespace DesignPatterns\Cretional\Adapter\Tests;
+namespace DesignPatterns\Structural\Adapter\Tests;
 
 
-use DesignPatterns\Cretional\Adapter\Book;
-use DesignPatterns\Cretional\Adapter\EBookAdapter;
-use DesignPatterns\Cretional\Adapter\Kindle;
+use DesignPatterns\Structural\Adapter\Book;
+use DesignPatterns\Structural\Adapter\EBookAdapter;
+use DesignPatterns\Structural\Adapter\Kindle;
 use PHPUnit\Framework\TestCase;
 
 class AdapterTest extends TestCase

@@ -5,7 +5,7 @@
  * DateTime: 2018/11/25 16:45
  */
 
-namespace DesignPatterns\Cretional\Adapter;
+namespace DesignPatterns\Structural\Adapter;
 
 
 interface EBookInterface
