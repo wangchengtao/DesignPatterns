@@ -1,0 +1,29 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: admin
+ * Date: 2018/11/29
+ * Time: 23:24
+ */
+
+namespace DesignPatterns\Structural\DataMapper;
+
+
+class StorageAdapter
+{
+    private $data = [];
+
+    public function __construct(array $data)
+    {
+        $this->data = $data;
+    }
+
+    public function find(int $id)
+    {
+        if (isset($this->data[$id])) {
+            return $this->data[$id];
+        }
+
+        return null;
+    }
+}
