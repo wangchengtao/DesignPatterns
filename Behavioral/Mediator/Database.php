@@ -9,7 +9,7 @@
 namespace DesignPatterns\Behavioral\Mediator;
 
 
-class Database
+class Database extends Colleague
 {
     public function getData(): string
     {

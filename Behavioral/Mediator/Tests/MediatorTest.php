@@ -13,7 +13,7 @@ use DesignPatterns\Behavioral\Mediator\Client;
 use DesignPatterns\Behavioral\Mediator\Database;
 use DesignPatterns\Behavioral\Mediator\Mediator;
 use DesignPatterns\Behavioral\Mediator\Server;
-use SebastianBergmann\CodeCoverage\TestCase;
+use PHPUnit\Framework\TestCase;
 
 class MediatorTest extends TestCase
 {

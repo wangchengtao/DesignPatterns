@@ -31,6 +31,10 @@ class Mediator implements MediatorInterface
         $this->server = $server;
         $this->database = $database;
         $this->client = $client;
+
+        $this->server->setMediator($this);
+        $this->client->setMediator($this);
+        $this->database->setMediator($this);
     }
 
     public function makeRequest()
